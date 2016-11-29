@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		900D05B41DECD7F000130B77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D05B31DECD7F000130B77 /* AppDelegate.swift */; };
+		900D05B61DECD7F000130B77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D05B51DECD7F000130B77 /* ViewController.swift */; };
+		900D05B91DECD7F000130B77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900D05B71DECD7F000130B77 /* Main.storyboard */; };
+		900D05BC1DECD7F000130B77 /* WeightWatchers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 900D05BA1DECD7F000130B77 /* WeightWatchers.xcdatamodeld */; };
+		900D05BE1DECD7F000130B77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900D05BD1DECD7F000130B77 /* Assets.xcassets */; };
+		900D05C11DECD7F000130B77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900D05BF1DECD7F000130B77 /* LaunchScreen.storyboard */; };
+		900D05CA1DECD99C00130B77 /* MyLog+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D05C81DECD99C00130B77 /* MyLog+CoreDataProperties.swift */; };
+		900D05CB1DECD99C00130B77 /* MyLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D05C91DECD99C00130B77 /* MyLog.swift */; };
+		900D05CD1DECDBAB00130B77 /* PointsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D05CC1DECDBAB00130B77 /* PointsTableViewController.swift */; };
+		900D05CF1DECF15100130B77 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D05CE1DECF15100130B77 /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		900D05B01DECD7F000130B77 /* WeightWatchers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightWatchers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		900D05B31DECD7F000130B77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		900D05B51DECD7F000130B77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		900D05B81DECD7F000130B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		900D05BB1DECD7F000130B77 /* WeightWatchers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeightWatchers.xcdatamodel; sourceTree = "<group>"; };
+		900D05BD1DECD7F000130B77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		900D05C01DECD7F000130B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		900D05C21DECD7F000130B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900D05C81DECD99C00130B77 /* MyLog+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MyLog+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		900D05C91DECD99C00130B77 /* MyLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLog.swift; sourceTree = "<group>"; };
+		900D05CC1DECDBAB00130B77 /* PointsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointsTableViewController.swift; sourceTree = "<group>"; };
+		900D05CE1DECF15100130B77 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		900D05AD1DECD7F000130B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		900D05A71DECD7F000130B77 = {
+			isa = PBXGroup;
+			children = (
+				900D05C81DECD99C00130B77 /* MyLog+CoreDataProperties.swift */,
+				900D05C91DECD99C00130B77 /* MyLog.swift */,
+				900D05B21DECD7F000130B77 /* WeightWatchers */,
+				900D05B11DECD7F000130B77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		900D05B11DECD7F000130B77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				900D05B01DECD7F000130B77 /* WeightWatchers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		900D05B21DECD7F000130B77 /* WeightWatchers */ = {
+			isa = PBXGroup;
+			children = (
+				900D05B31DECD7F000130B77 /* AppDelegate.swift */,
+				900D05B51DECD7F000130B77 /* ViewController.swift */,
+				900D05B71DECD7F000130B77 /* Main.storyboard */,
+				900D05BD1DECD7F000130B77 /* Assets.xcassets */,
+				900D05BF1DECD7F000130B77 /* LaunchScreen.storyboard */,
+				900D05C21DECD7F000130B77 /* Info.plist */,
+				900D05BA1DECD7F000130B77 /* WeightWatchers.xcdatamodeld */,
+				900D05CC1DECDBAB00130B77 /* PointsTableViewController.swift */,
+				900D05CE1DECF15100130B77 /* MainViewController.swift */,
+			);
+			path = WeightWatchers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		900D05AF1DECD7F000130B77 /* WeightWatchers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900D05C51DECD7F000130B77 /* Build configuration list for PBXNativeTarget "WeightWatchers" */;
+			buildPhases = (
+				900D05AC1DECD7F000130B77 /* Sources */,
+				900D05AD1DECD7F000130B77 /* Frameworks */,
+				900D05AE1DECD7F000130B77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeightWatchers;
+			productName = WeightWatchers;
+			productReference = 900D05B01DECD7F000130B77 /* WeightWatchers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		900D05A81DECD7F000130B77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Rock Valley College";
+				TargetAttributes = {
+					900D05AF1DECD7F000130B77 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 900D05AB1DECD7F000130B77 /* Build configuration list for PBXProject "WeightWatchers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 900D05A71DECD7F000130B77;
+			productRefGroup = 900D05B11DECD7F000130B77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				900D05AF1DECD7F000130B77 /* WeightWatchers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		900D05AE1DECD7F000130B77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900D05C11DECD7F000130B77 /* LaunchScreen.storyboard in Resources */,
+				900D05BE1DECD7F000130B77 /* Assets.xcassets in Resources */,
+				900D05B91DECD7F000130B77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		900D05AC1DECD7F000130B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900D05CF1DECF15100130B77 /* MainViewController.swift in Sources */,
+				900D05CD1DECDBAB00130B77 /* PointsTableViewController.swift in Sources */,
+				900D05CB1DECD99C00130B77 /* MyLog.swift in Sources */,
+				900D05CA1DECD99C00130B77 /* MyLog+CoreDataProperties.swift in Sources */,
+				900D05BC1DECD7F000130B77 /* WeightWatchers.xcdatamodeld in Sources */,
+				900D05B61DECD7F000130B77 /* ViewController.swift in Sources */,
+				900D05B41DECD7F000130B77 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		900D05B71DECD7F000130B77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				900D05B81DECD7F000130B77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		900D05BF1DECD7F000130B77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				900D05C01DECD7F000130B77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		900D05C31DECD7F000130B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		900D05C41DECD7F000130B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		900D05C61DECD7F000130B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeightWatchers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.RockValleyCollege.WeightWatchers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		900D05C71DECD7F000130B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeightWatchers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.RockValleyCollege.WeightWatchers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		900D05AB1DECD7F000130B77 /* Build configuration list for PBXProject "WeightWatchers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900D05C31DECD7F000130B77 /* Debug */,
+				900D05C41DECD7F000130B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900D05C51DECD7F000130B77 /* Build configuration list for PBXNativeTarget "WeightWatchers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900D05C61DECD7F000130B77 /* Debug */,
+				900D05C71DECD7F000130B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		900D05BA1DECD7F000130B77 /* WeightWatchers.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				900D05BB1DECD7F000130B77 /* WeightWatchers.xcdatamodel */,
+			);
+			currentVersion = 900D05BB1DECD7F000130B77 /* WeightWatchers.xcdatamodel */;
+			path = WeightWatchers.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 900D05A81DECD7F000130B77 /* Project object */;
+}
