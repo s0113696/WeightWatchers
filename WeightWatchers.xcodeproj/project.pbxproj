@@ -17,6 +17,8 @@
 		900D05CB1DECD99C00130B77 /* MyLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D05C91DECD99C00130B77 /* MyLog.swift */; };
 		900D05CD1DECDBAB00130B77 /* PointsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D05CC1DECDBAB00130B77 /* PointsTableViewController.swift */; };
 		900D05CF1DECF15100130B77 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900D05CE1DECF15100130B77 /* MainViewController.swift */; };
+		903D66531DF632B100B37A51 /* noescuses.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 903D66511DF632B100B37A51 /* noescuses.jpeg */; };
+		903D66551DF6332700B37A51 /* Breakfast.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 903D66541DF6332700B37A51 /* Breakfast.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		900D05C91DECD99C00130B77 /* MyLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLog.swift; sourceTree = "<group>"; };
 		900D05CC1DECDBAB00130B77 /* PointsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointsTableViewController.swift; sourceTree = "<group>"; };
 		900D05CE1DECF15100130B77 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		903D66511DF632B100B37A51 /* noescuses.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noescuses.jpeg; sourceTree = "<group>"; };
+		903D66541DF6332700B37A51 /* Breakfast.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Breakfast.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 		900D05B21DECD7F000130B77 /* WeightWatchers */ = {
 			isa = PBXGroup;
 			children = (
+				903D66541DF6332700B37A51 /* Breakfast.jpeg */,
+				903D66511DF632B100B37A51 /* noescuses.jpeg */,
 				900D05B31DECD7F000130B77 /* AppDelegate.swift */,
 				900D05B51DECD7F000130B77 /* ViewController.swift */,
 				900D05B71DECD7F000130B77 /* Main.storyboard */,
@@ -138,8 +144,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				900D05C11DECD7F000130B77 /* LaunchScreen.storyboard in Resources */,
+				903D66531DF632B100B37A51 /* noescuses.jpeg in Resources */,
 				900D05BE1DECD7F000130B77 /* Assets.xcassets in Resources */,
 				900D05B91DECD7F000130B77 /* Main.storyboard in Resources */,
+				903D66551DF6332700B37A51 /* Breakfast.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +316,7 @@
 				900D05C71DECD7F000130B77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
